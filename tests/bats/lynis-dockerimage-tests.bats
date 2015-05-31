@@ -2,7 +2,7 @@
 
 LYNIS_VERSION=2.1.0
 @test "The installed version of lynis is ${LYNIS_VERSION}" {
-	FOUND_VERSION=$(docker run lynis --version)
+	FOUND_VERSION=$(docker run "${DOCKER_IMAGE_NAME}" --version)
 	[ "${FOUND_VERSION}" == "${LYNIS_VERSION}" ]
 }
 
