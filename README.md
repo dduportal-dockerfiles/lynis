@@ -4,9 +4,9 @@
 
 That image embed [lynis](https://cisofy.com/lynis/), a tools for auditing Linux systems
 
-The idea is to use Docker's lightweight isolation to have an auto-sufficient image that embed lynis and its dependencies, to eprform on-demand audit without installing anything on your system, and leaving the place clean after the audit.
+The idea is to use Docker's lightweight isolation to have an auto-sufficient image that embed lynis and its dependencies, to perform on-demand audit without installing anything on your system, and leaving the place clean after the audit.
 
-<!-- [![CircleCi Build Status](https://circleci.com/gh/dduportal-dockerfiles/bats.svg?&style=shield&circle-token=a7fd546c08f8c0a1bf0ff211b07d14f204e65be1)](https://circleci.com/gh/dduportal-dockerfiles/bats) -->
+[![CircleCi Build Status](https://circleci.com/gh/dduportal-dockerfiles/lynis/tree/master.svg?&style=shield)](https://circleci.com/gh/dduportal-dockerfiles/lynis/tree/master)
 
 ## Usage
 
