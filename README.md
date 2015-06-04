@@ -35,7 +35,7 @@ $ docker run dduportal/lynis --help
 $ docker run \
 	-v $(pwd):/app \
 	-v $(pwd)/lynis-logs:/var/log \
-	dduportal/lynis:0.4.0 \
+	dduportal/lynis:2.1.0 \
 		--auditor "John Doe" \
 		--quick \
 		audit dockerfile /app/Dockerfile
